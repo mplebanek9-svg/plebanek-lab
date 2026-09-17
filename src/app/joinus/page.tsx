@@ -74,7 +74,7 @@ export default function JoinUsPage() {
                 We are always seeking highly motivated postdoctoral
                 researchers interested in developing independent
                 research programs. Please contact Dr. Plebanek (plebanek@msu.edu) with 
-                your CV and a cover letter describing yourresearch interests.
+                your CV and a cover letter describing your research interests.
               </p>
 
             </div>
