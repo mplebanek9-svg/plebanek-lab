@@ -5,28 +5,26 @@ export default function JoinUsPage() {
     <main className="min-h-screen bg-white text-black">
 
       {/* NAVBAR */}
-        <nav className="flex justify-between items-center px-10 py-6 bg-[#18453B] text-white">
+      <nav className="flex flex-col sm:flex-row justify-between items-center px-6 md:px-10 py-4 md:py-6 bg-[#18453B] text-white gap-4 sm:gap-0">
+        <Link
+          href="/"
+          className="flex items-center gap-3 text-xl md:text-2xl font-semibold tracking-tight"
+        >
+          <img
+            src="/images/DC_symbol.png"
+            alt="Plebanek Lab Logo"
+            className="w-8 h-8 object-contain"
+          />
+          Plebanek Lab
+        </Link>
 
-          <Link
-            href="/"
-            className="flex items-center gap-3 text-2xl font-semibold tracking-tight"
-          >
-            <img
-              src="/images/DC_symbol.png"
-              alt="Plebanek Lab Logo"
-              className="w-8 h-8 object-contain"
-            />
-            Plebanek Lab
-          </Link>
-
-        <div className="flex gap-8 text-sm uppercase tracking-[0.15em]">
-          <Link href="/team">Team</Link>
-          <Link href="/publications">Publications</Link>
-          <Link href="/news">News</Link>
-          <Link href="/joinus">Join Us</Link>
-          <Link href="/contact">Contact</Link>
+        <div className="flex flex-wrap justify-center gap-4 sm:gap-8 text-xs sm:text-sm uppercase tracking-[0.15em]">
+          <Link href="/team" className="hover:text-gray-200 transition-colors">Team</Link>
+          <Link href="/publications" className="hover:text-gray-200 transition-colors">Publications</Link>
+          <Link href="/news" className="hover:text-gray-200 transition-colors">News</Link>
+          <Link href="/joinus" className="hover:text-gray-200 transition-colors">Join Us</Link>
+          <Link href="/contact" className="hover:text-gray-200 transition-colors">Contact</Link>
         </div>
-
       </nav>
 
       {/* CAMPUS BANNER */}
