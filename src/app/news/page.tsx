@@ -58,12 +58,7 @@ export default function NewsPage() {
           </div>
         </div>
       </div>
-
-      {/* FOOTER */}
-      <footer className="bg-gray-50 border-t border-gray-200 py-8 px-10 text-sm text-gray-600 flex justify-between items-center">
-        <p>&copy; {new Date().getFullYear()} Plebanek Lab. All rights reserved.</p>
-        <p>Michigan State University</p>
-      </footer>
+      
     </main>
   )
 }
